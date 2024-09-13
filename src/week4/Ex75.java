@@ -6,13 +6,14 @@ public class Ex75 {
         Ex75_1.DecreasingCounter counter = new Ex75_1.DecreasingCounter(2);
 
 
-            counter.printValue();
-            counter.decrease();
-        counter.printValue();
-        counter.decrease();
-        counter.printValue();
-        counter.decrease();
-        counter.printValue();
-        counter.decrease();
+           counter.decrease();
+           counter.printValue();
+           counter.decrease();
+           counter.printValue();
+           counter.decrease();
+           counter.reset();
+           counter.printValue();
+           counter.setInitial();
+           counter.printValue();
     }
 }

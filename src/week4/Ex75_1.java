@@ -3,9 +3,11 @@ package week4;
 public class Ex75_1 {
     public static class DecreasingCounter {
         int value;
+        int initialValue;
 
         public DecreasingCounter(int valueAtStart) {
             this.value = valueAtStart;
+            this.initialValue = valueAtStart;
         }
 
         // print the counter
@@ -25,6 +27,10 @@ public class Ex75_1 {
         // counter back to zero
         public void reset() {
             this.value = 0;
+        }
+        // counter back to start
+        public void setInitial() {
+            this.value = this.initialValue;
         }
     }
 }
