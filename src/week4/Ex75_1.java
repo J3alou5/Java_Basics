@@ -17,8 +17,9 @@ public class Ex75_1 {
         public void decrease() {
             // Decrease the value by one
             if (this.value > 0) {
-                this.value -= 1;
+                this.value--;
             }
+
         }
 
         // counter back to zero
