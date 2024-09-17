@@ -11,6 +11,12 @@ public class Ex87 {
         this.pricePerSquareMeters = pricePerSquareMeters;
     }
     public boolean larger(Ex87 other) {
-        return this.pricePerSquareMeters > other.pricePerSquareMeters;
+        return this.pricePerSquareMeters < other.pricePerSquareMeters;
+    }
+    public int priceDifference(Ex87 other) {
+        return Math.abs(this.pricePerSquareMeters * this.squareMeters - other.pricePerSquareMeters * other.squareMeters);
+    }
+    public boolean moreExpensive(Ex87 other) {
+        return this.pricePerSquareMeters * this.squareMeters > other.pricePerSquareMeters * other.squareMeters;
     }
 }

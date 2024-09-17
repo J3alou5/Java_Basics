@@ -7,6 +7,12 @@ public class Ex87_1 {
         Ex87 fourAndKitchenBronx = new Ex87(3, 78, 2500);
 
         System.out.println(studioManhattan.larger(twoRoomsBrooklyn));
+        System.out.println(fourAndKitchenBronx.larger(twoRoomsBrooklyn));
 
+        System.out.println(studioManhattan.priceDifference(twoRoomsBrooklyn));
+        System.out.println(fourAndKitchenBronx.priceDifference(twoRoomsBrooklyn));
+
+        System.out.println(studioManhattan.moreExpensive(twoRoomsBrooklyn));
+        System.out.println(fourAndKitchenBronx.moreExpensive(twoRoomsBrooklyn));
     }
 }
