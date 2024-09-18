@@ -2,6 +2,7 @@ package week7;
 
 import java.util.HashMap;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Ex7 {
     private HashMap<String, String> dictionary;

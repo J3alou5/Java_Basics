@@ -50,4 +50,15 @@ public class Ex7_1 {
             System.out.println("Translation: " + translation);
         }
     }
+    public static void main(String[] args) {
+        Scanner reader = new Scanner(System.in);
+        Ex7 dictionary = new Ex7();
+
+        dictionary.add("apina", "monkey");
+        dictionary.add("banaani", "banana");
+        dictionary.add("cembalo", "harpsichord");
+
+        Ex7_1 ui = new Ex7_1(reader, dictionary);
+        ui.start();
+    }
 }
